@@ -1,3 +1,15 @@
+macro_win_desk_right: macro_win_desk_right{
+compatible = "zmk,behavior-macro";
+label = "macro_win_desk_right";
+#binding-cells = <0>;
+bindings = <&kp LEFT_WIN>, <&kp RCTRL>, <&kp RIGHT>;
+};
+macro_win_desk_left: macro_win_desk_left{
+compatible = "zmk,behavior-macro";
+label = "macro_win_desk_left";
+#binding-cells = <0>;
+bindings = <&kp LEFT_WIN>, <&kp LEFT_CONTROL>, <&kp LEFT>;
+};
 macro_macro_mod: macro_macro_mod{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_mod";
